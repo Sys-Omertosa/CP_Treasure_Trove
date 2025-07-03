@@ -8,7 +8,7 @@ class Solution:
         #
         # The second trick is to maintain a HashMap of {value : index} that keeps updating
         # It calculates diff for each index and checks if it's currently in the HashMap:
-        #   1. If not, then simply store the current number as the key and it's index as the value
+        #   1. If not, then simply store the current number as the key and its index as the value
         #   2. If yes, then return a list with the index of diff, and the current index
         #
         # The in operator works in O(1) for HashMaps.
